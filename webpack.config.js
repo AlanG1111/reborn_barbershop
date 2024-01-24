@@ -15,7 +15,6 @@ const PRODUCTION_PLUGINS = [
             collapseWhitespace: true,
             removeComments: true,
         },
-        favicon: "./src/app/static/images/favicon.ico"
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
@@ -39,7 +38,6 @@ const DEVELOPMENT_PLUGINS = [
     new HtmlWebpackPlugin({
         title: "Portfolio",
         template: "./public/index.html",
-        favicon: "./src/app/static/images/favicon.ico"
     }),
     new StylelintPlugin({ fix: true })
 ];
