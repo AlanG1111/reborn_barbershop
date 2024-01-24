@@ -3,6 +3,7 @@ import { Background } from '@/app/components/Home/Background';
 import './index.scss';
 import Logo from '@/app/components/Logo';
 import { Heading } from '@/app/components/common/Heading';
+import MarkerPoin from '@/app/components/common/MarkerPoint';
 
 export const Home: React.FC = () =>
 <>
@@ -12,7 +13,9 @@ export const Home: React.FC = () =>
         </div>
      </nav>
     <section className="home">
-    <Heading message="Привіт друже, Ми відкриваємось у березні! Чекаємо на тебе за адрессою:вул. Марашала Тимошенка 21 корп.14 (Smart Hub)" />
+    <Heading message="Привіт друже, Ми відкриваємось у березні! Чекаємо на тебе" />
         <Background />
-    </section></>
+        <MarkerPoin/>
+    </section>
+    </>
 
